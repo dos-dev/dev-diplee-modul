@@ -1,0 +1,137 @@
+@charset "UTF-8";
+.dos-network-list__item.ins {
+  background-image: url(../../img/common/icon-instagram.svg);
+}
+.dos-network-list__item.ins:hover {
+  background-image: url(../../img/common/icon-instagram-hover.png);
+}
+
+.dos-settings-group label.font:after {
+  background: url(../../img/common/font.svg) no-repeat 50%;
+}
+.dos-settings-group label.night:after {
+  background: url(../../img/common/night.svg) no-repeat 50%;
+}
+.dos-settings-group input:checked ~ label.font:after {
+  background: url(../../img/common/font-black.svg) no-repeat 50%;
+}
+.dos-settings-group input:checked ~ label.night:after {
+  background: url(../../img/common/night-black.svg) no-repeat 50%;
+}
+
+.dos-main-banner:before {
+  background-image: url(../../img/default/top-bg.png);
+}
+
+/*** .dos-col-wrapper ** */
+@media (max-width: 991px) {
+  .dos-col-wrapper .dos-subtitle-btn:before {
+    background-image: url(../../img/default/plus.svg);
+  }
+}
+
+.dos-alert-popup:before {
+  background-image: url(../../img/common/arrow-left.png);
+}
+
+body.dark-theme .dos-alert-popup:before {
+  background-image: url(../../img/common/arrow-left-black.png);
+}
+
+.dos-gallery-slider .dos-slide__prev:before {
+  background-image: url(../../img/common/arrow-left.svg);
+}
+.dos-gallery-slider .dos-slide__next:before {
+  background-image: url(../../img/common/arrow-right.svg);
+}
+
+.dos-collection-tasks-slider .dos-slide__prev:before {
+  content: "";
+  background-image: url(../../img/common/arrow-left--black.svg);
+}
+.dos-collection-tasks-slider .dos-slide__next:before {
+  background-image: url(../../img/common/arrow-right--black.svg);
+}
+
+.dos-eval.correct::after,
+[data-question-type="Povlačenje riječi"] .dos-answer-draggable.success::after,
+[data-question-type="Razvrstavanje elemenata"] .dos-answer-draggable.success::after,
+[data-question-type="Povlačenje parova"] td.dos-state-item.pair.pair-static.success::after,
+[data-question-type="Uređivanje poretka elemenata"] .dos-answer-draggable.success::after,
+[data-question-type="Povlačenje na sliku"] .dos-answer-draggable.success::after {
+  background-image: url(../../img/common/correctly-2.svg);
+}
+
+.dos-eval.incorrect::after,
+[data-question-type="Povlačenje riječi"] .dos-answer-draggable.danger::after,
+[data-question-type="Razvrstavanje elemenata"] .dos-answer-draggable.danger::after,
+[data-question-type="Povlačenje parova"] td.dos-state-item.pair.pair-static.danger::after,
+[data-question-type="Uređivanje poretka elemenata"] .dos-answer-draggable.danger::after,
+[data-question-type="Povlačenje na sliku"] .dos-answer-draggable.danger::after {
+  background-image: url(../../img/common/error-2.svg);
+}
+
+/*
+a[target=_blank]:after,
+a[href^="https://"]:after,
+a[href^="http://"]:after {
+  background-image: url("../../img/common/vanjska-poveznica.svg");
+}
+*/
+a > span.reference-last-word {
+  display: inline-block;
+}
+a > span.reference-last-word:after {
+  background-image: url("../../img/common/vanjska-poveznica.svg");
+}
+
+body.dos-single-unit .dos-information-accordion .dos-main-information-wrapper .dos-main-information {
+  background-image: url(../../img/default/unit-accordion-pattern.svg);
+}
+
+body.dos-module-home .dos-page-main-full .dos-col-wrapper .dos-col-main .dos-activity-btn:first-of-type a > span:before {
+  content: url(../../img/default/icon-aktivnosti.svg);
+}
+
+body.dos-module-home .dos-page-main-full .dos-col-wrapper .dos-col-main .dos-activity-btn:last-of-type a > span:before {
+  content: url(../../img/default/icon-procjenite.svg);
+}
+
+.dos-dyk-slider .dos-slide__prev {
+  background-image: url("../../img/default/dyk-arrow-left.svg");
+}
+
+.dos-dyk-slider .dos-slide__next {
+  background-image: url("../../img/default/dyk-arrow-right.svg");
+}
+
+body.dos-module-home.first .dos-main-banner {
+  background-image: url(../../img/default/home-decor-1.svg);
+}
+body.dos-module-home.first .dos-main-banner::before {
+  background-image: url(../../img/default/home-decor-2.svg);
+}
+@media (max-width: 991px) {
+  body.dos-module-home.first .dos-main-banner {
+    background-image: url(../../img/default/top-bg.png);
+  }
+}
+
+.dos-col-side__picture a[target=_blank]:before,
+.dos-col-side__picture a[href^="https://"]:before,
+.dos-col-side__picture a[href^="http://"]:before {
+  background: url(../../img/common/vanjska-poveznica-white.svg) no-repeat center rgba(0, 0, 0, 0.3);
+}
+
+body.dos-dictionary .term .btn-audio {
+  background-image: url(../../img/common/icon-audio-white.svg);
+}
+
+.memory .cover {
+  background: url(../../img/default/memory-cover.png) no-repeat;
+  background-size: cover;
+}
+
+.btn-audio-alternative {
+  background-image: url(../../img/common/icon-audio-white.svg);
+}

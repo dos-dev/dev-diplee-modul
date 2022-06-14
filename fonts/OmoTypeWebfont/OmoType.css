@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'OmoType Book Std Four';
+    src: url('subset-OmoType-BookStdOne.woff2') format('woff2'),
+        url('subset-OmoType-BookStdOne.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OmoType Light Std Four';
+    src: url('OmoType-LightStdOne.woff2') format('woff2'),
+        url('OmoType-LightStdOne.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OmoType Bold Std Four';
+    src: url('subset-OmoType-BoldStdOne.woff2') format('woff2'),
+        url('subset-OmoType-BoldStdOne.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OmoType Regular Std Four';
+    src: url('subset-OmoType-RegularStdOne.woff2') format('woff2'),
+        url('subset-OmoType-RegularStdOne.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OmoType Medium Std Four';
+    src: url('subset-OmoType-MediumStdOne.woff2') format('woff2'),
+        url('subset-OmoType-MediumStdOne.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OmoType Black Std Four';
+    src: url('OmoType-BlackStdOne.woff2') format('woff2'),
+        url('OmoType-BlackStdOne.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+

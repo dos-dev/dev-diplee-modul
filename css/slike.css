@@ -1,0 +1,40 @@
+.dos-network-list__item.ins {
+  background-image: url(../../img/common/icon-instagram.svg); }
+  .dos-network-list__item.ins:hover {
+    background-image: url(../../img/common/icon-instagram-hover.png); }
+
+.dos-settings-group label.font:after {
+  background: url(../../img/common/font.svg) no-repeat 50%; }
+
+.dos-settings-group label.night:after {
+  background: url(../../img/common/night.svg) no-repeat 50%; }
+
+.dos-settings-group input:checked ~ label.font:after {
+  background: url(../../img/common/font-black.svg) no-repeat 50%; }
+
+.dos-settings-group input:checked ~ label.night:after {
+  background: url(../../img/common/night-black.svg) no-repeat 50%; }
+
+.dos-main-banner:before {
+  background-image: url(../../img/informatika/top-bg.png); }
+
+/*** .dos-col-wrapper ***/
+@media (max-width: 991px) {
+  .dos-col-wrapper .dos-subtitle-btn:before {
+    background-image: url(../../img/common/plus.svg); } }
+
+.dos-alert-popup:before {
+  background-image: url(../../img/common/arrow-left.png); }
+
+.dos-gallery-slider .dos-slide__prev:before {
+  background-image: url(../../img/common/arrow-left.svg); }
+
+.dos-gallery-slider .dos-slide__next:before {
+  background-image: url(../../img/common/arrow-right.svg); }
+
+.dos-collection-tasks-slider .dos-slide__prev:before {
+  content: '';
+  background-image: url(../../img/common/arrow-left--black.svg); }
+
+.dos-collection-tasks-slider .dos-slide__next:before {
+  background-image: url(../../img/common/arrow-right--black.svg); }

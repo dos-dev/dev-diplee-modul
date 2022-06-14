@@ -1,0 +1,605 @@
+@charset "UTF-8";
+body.theme--bordo {
+  /*.dos-col-main-shell a:not([data-fancybox]),
+  .dos-col-main-shell a:not([data-fancybox]):hover {
+    border-color: $bordo;
+  }*/
+  /** SVG **/
+  /*
+  a[target=_blank]:after,
+  a[href^="https://"]:after,
+  a[href^="http://"]:after {
+    background-color: $bordo;
+  }
+  */
+  /*.dos-col-wrapper a {
+    border-color: $bordo;
+    &:hover {
+      border-color: $bordo;
+    }
+  }*/
+  /** ADD.CSS **/
+  /** klasa koju dizajneri trebaju prebaciti u main.css, 
+  jer će sadržavati boje teme, tu treba dodati boju koja će se prikazivati na gumbima provjeri, 
+  resetiraj i pomoć, a maknuti border */
+  /** klasa koju dizajneri trebaju prebaciti u main.css, 
+  jer će sadržavati boje teme - iz klase treba izbaciti obrub (zadnji prop) */
+  /** klasa koju dizajneri trebaju prebaciti u main.css, 
+  jer će sadržavati boje teme */
+  /** ovo mogu prebaciti u main.css, 
+  ako žele - ovo je stil koji određuje kako izgleda fokusirani gumb na onom dodatnom Spajkijevom keyboardu */
+}
+body.theme--bordo .dos-main-banner-wrapper {
+  color: #fff;
+}
+body.theme--bordo .dos-main-banner {
+  background: #98003F;
+}
+@media (min-width: 1024px) {
+  body.theme--bordo .dos-header-navigate .dos-share:hover,
+body.theme--bordo .dos-header-navigate .dos-settings:hover {
+    background-color: #98003F;
+    border-color: #98003F;
+  }
+  body.theme--bordo .dos-header-navigate .dos-share:hover svg path,
+body.theme--bordo .dos-header-navigate .dos-settings:hover svg path {
+    fill: #fff;
+  }
+}
+body.theme--bordo .dos-dropdown-btn.active:not(.dos-settings) {
+  background-color: #98003F;
+  border-color: #98003F;
+}
+body.theme--bordo .dos-dropdown-btn.active:not(.dos-settings) svg path {
+  fill: #fff;
+}
+body.theme--bordo .dos-dropdown.show[title=Postavke] .dos-settings {
+  background-color: #98003F;
+  border-color: #98003F;
+}
+body.theme--bordo .dos-dropdown.show[title=Postavke] .dos-settings svg path {
+  fill: #fff;
+}
+body.theme--bordo .dos-main-information svg path {
+  stroke: #98003F;
+  fill: #98003F;
+}
+body.theme--bordo .dos-main-information.active {
+  border-color: #98003F;
+  background: #F9EDF2;
+}
+body.theme--bordo .dos-main-information.active svg path {
+  stroke: #98003F;
+}
+body.theme--bordo .dos-key-terms__tabs a {
+  border-bottom: 1.5px solid #98003F;
+}
+body.theme--bordo .dos-callout {
+  border-bottom: solid 2px #98003F;
+}
+body.theme--bordo .dos-callout__icon {
+  background: #98003F;
+}
+body.theme--bordo .dos-part a:not(.dos-link-float) {
+  border-bottom: solid 2px #98003F;
+}
+body.theme--bordo .dos-part a:not(.dos-link-float):hover {
+  border-bottom: dashed 2px #98003F;
+}
+body.theme--bordo .dos-part--highlight {
+  border: solid 2px #98003F;
+  background: #F9EDF2;
+}
+body.theme--bordo .dos-part--transparent {
+  border: solid 2px #98003F;
+}
+body.theme--bordo .dos-hedding__icon {
+  background: #98003F;
+}
+body.theme--bordo .dos-settings-group__btn button {
+  background: #98003F;
+  color: #fff;
+}
+body.theme--bordo .dos-settings-group input:checked ~ label {
+  border-color: #98003F;
+  background: #F9EDF2 !important;
+}
+body.theme--bordo .dos-settings-group input:checked ~ label:before {
+  border-color: #98003F;
+}
+body.theme--bordo .dos-settings-list__link svg path {
+  fill: #98003F;
+}
+body.theme--bordo .dos-reference__icon {
+  background: #98003F;
+  border: solid 2px #98003F;
+}
+body.theme--bordo .dos-reference__icon:hover {
+  background: #fff;
+}
+body.theme--bordo .dos-btn-def {
+  border: solid 2px #98003F;
+}
+body.theme--bordo .dos-btn-def--transparent {
+  border-color: transparent;
+}
+body.theme--bordo .dos-btn-def:not(.dos-btn-def--transparent):hover {
+  background-color: #F9EDF2 !important;
+}
+body.theme--bordo .dos-alert.active {
+  border-color: #98003F;
+}
+body.theme--bordo .fancybox-thumbs > ul > li:before {
+  border-color: #98003F;
+}
+body.theme--bordo .doc-solution {
+  background: #F9EDF2;
+  border-color: #98003F;
+}
+body.theme--bordo .dos-btn-def-basic {
+  background-color: #98003F;
+  border: solid 2px #98003F;
+  color: #fff;
+}
+body.theme--bordo .dos-sortable .ui-sortable-helper {
+  border-color: #98003F;
+}
+body.theme--bordo .dos-scroll-top.white {
+  color: #fff;
+}
+body.theme--bordo .dos-scroll-top .dos-circle {
+  background: #fff;
+  border-color: #98003F;
+}
+body.theme--bordo .dos-scroll-top .dos-circle:hover {
+  background-color: #F9EDF2;
+  border-color: #F9EDF2;
+}
+body.theme--bordo .dos-option-radio-view-2 input:checked ~ label {
+  background: #98003F;
+  border-color: #98003F !important;
+  color: #fff !important;
+}
+body.theme--bordo .dos-answer-draggable {
+  background: #F9EDF2;
+  border: solid 2px #98003F;
+}
+body.theme--bordo .dos-sortable-picture li {
+  display: flex;
+  align-items: center;
+}
+body.theme--bordo .dos-sortable-picture .dos-sortable-number {
+  margin-left: 10px;
+  margin-right: 37px;
+}
+@media (max-width: 767px) {
+  body.theme--bordo .dos-sortable-picture .dos-sortable-number {
+    margin-right: 15px;
+  }
+}
+body.theme--bordo .dos-sortable-picture .dos-drag-area {
+  margin-bottom: 18px;
+  display: flex;
+}
+@media (max-width: 767px) {
+  body.theme--bordo .dos-sortable-picture .dos-drag-area {
+    display: block;
+  }
+}
+body.theme--bordo .dos-sortable-picture .dos-answer .dos-circle {
+  background: #98003F;
+  border-color: #98003F;
+}
+body.theme--bordo .dos-collection-tasks {
+  border-color: #98003F;
+}
+body.theme--bordo .dos-collection-tasks__title {
+  background: #98003F;
+  color: #fff;
+}
+body.theme--bordo .dos-collection-tasks .slick-dots li {
+  background: #65002a;
+}
+body.theme--bordo .dos-collection-tasks .slick-dots li button {
+  color: #fff;
+}
+body.theme--bordo .dos-collection-tasks .slick-dots li.slick-active {
+  background: #F9EDF2;
+}
+body.theme--bordo .dos-collection-tasks .slick-dots li.slick-active button {
+  color: #333;
+}
+body.theme--bordo .dos-collection-tasks .dos-slide__prev, body.theme--bordo .dos-collection-tasks .dos-slide__next {
+  border-color: #98003F;
+}
+@media (max-width: 767px) {
+  body.theme--bordo .dos-collection-tasks .slick-dots {
+    background-color: #98003F;
+  }
+}
+body.theme--bordo .dos-slider-tasks-nav .dos-slide__prev, body.theme--bordo .dos-slider-tasks-nav .dos-slide__next {
+  border-color: #98003F;
+}
+body.theme--bordo .dos-link {
+  border-bottom: solid 2px #98003F;
+}
+body.theme--bordo .dos-link:before {
+  border-bottom: dashed 2px #98003F;
+}
+body.theme--bordo .dos-link:hover {
+  border-color: #fff;
+}
+body.theme--bordo .dos-col-side .dos-icon svg path {
+  fill: #98003F;
+}
+body.theme--bordo .dos-sortable-picture .dos-circle {
+  background: #98003F;
+  border-color: #98003F;
+}
+body.theme--bordo .dos-key-terms a {
+  border-bottom: 1.5px solid #98003F;
+}
+body.theme--bordo .dos-key-terms a:before {
+  border-bottom: dashed 2px #98003F;
+}
+body.theme--bordo .dos-key-terms a:hover {
+  border-color: #fff;
+}
+body.theme--bordo .dos-key-terms a:hover:before {
+  opacity: 1;
+}
+body.theme--bordo .dos-answer-draggable, body.theme--bordo .dos-state-item {
+  border-color: #98003F;
+  background-color: #F9EDF2;
+}
+body.theme--bordo table.table {
+  border-color: #98003F;
+}
+body.theme--bordo table.table tr:nth-of-type(even) {
+  background: #F9EDF2;
+}
+body.theme--bordo table.table tr:nth-of-type(odd) {
+  background: #fdf8fa;
+}
+body.theme--bordo table.table tr th {
+  background: #fff;
+}
+body.theme--bordo table.table thead tr td {
+  background: #fff;
+  font-weight: bold;
+}
+body.theme--bordo .dos-footer {
+  background: #98003F;
+  color: #fff;
+}
+body.theme--bordo .dos-footer .dos-link {
+  color: #fff;
+}
+body.theme--bordo .dos-footer .dos-link:before {
+  border-bottom: solid 2px #fff;
+}
+body.theme--bordo .dos-footer .dos-link:hover:before {
+  border-bottom: dashed 2px #98003F;
+}
+body.theme--bordo .dos-footer .dos-footer__bottom a.dos-link {
+  color: #fff;
+}
+body.theme--bordo .dos-footer .dos-footer__bottom a.dos-link:before {
+  border-color: #98003F;
+}
+body.theme--bordo .dos-footer .dos-footer__bottom a.dos-link:hover {
+  border-color: #333 !important;
+}
+body.theme--bordo .question-help,
+body.theme--bordo .dos-question-result,
+body.theme--bordo .question-feedback {
+  background: #F9EDF2;
+  border-color: #98003F;
+}
+body.theme--bordo .dos-option-checkbox input:checked ~ label:before {
+  background: #e0a1bb;
+}
+body.theme--bordo a[target=_blank]:after, body.theme--bordo a[href^="https://"]:after, body.theme--bordo a[href^="http://"]:after {
+  background-color: #98003F;
+}
+body.theme--bordo .plyr--audio {
+  background: #F9EDF2;
+  border-color: #98003F;
+}
+body.theme--bordo .plyr--full-ui input[type=range] {
+  color: #98003F;
+}
+body.theme--bordo .plyr--audio .plyr__progress__buffer {
+  color: rgba(152, 0, 63, 0.2);
+}
+body.theme--bordo.dos-single-unit .dos-information-accordion .dos-main-information-wrapper .dos-main-information .dos-main-information__view, body.theme--bordo.dos-module-home .dos-information-accordion .dos-main-information-wrapper .dos-main-information .dos-main-information__view {
+  border-color: #98003F;
+  background: #F9EDF2;
+}
+body.theme--bordo.dos-module-home.first .dos-information-accordion .dos-main-information-wrapper .dos-main-information .dos-main-information__view {
+  border-top: 1px solid #98003F !important;
+}
+body.theme--bordo.dos-module-home.first .dos-page-main-full .dos-col-wrapper .dos-col-main .dos-module .inner strong,
+body.theme--bordo .dos-dyk-slider .dos-custom_paging li {
+  -webkit-text-stroke: 1.5px #98003F;
+}
+body.theme--bordo.dos-module-home .dos-page-main-full .dos-col-wrapper .dos-col-main .dos-module .inner:hover {
+  background: #F9EDF2;
+  border-color: #98003F;
+}
+body.theme--bordo.dos-module-home .dos-page-main-full .dos-col-wrapper .dos-col-main .dos-module .inner:hover h5 {
+  background: #F9EDF2;
+}
+body.theme--bordo .dos-dyk .title h2:last-of-type::after {
+  background: #F9EDF2;
+}
+body.theme--bordo .dos-dyk-slider .dos-slide__prev,
+body.theme--bordo .dos-dyk-slider .dos-slide__next {
+  background-color: #F9EDF2;
+  border-color: #ecc7d6;
+}
+body.theme--bordo .dos-footer .dos-commons {
+  border-color: #ad3a6a;
+}
+body.theme--bordo.dos-module-home .dos-page-main-full .dos-col-wrapper .dos-col-main .dos-activity-btn > a {
+  background: #F9EDF2;
+  border-color: #98003F;
+}
+body.theme--bordo.dos-module-home .dos-page-main-full .dos-col-wrapper .dos-col-main .dos-activity-btn > a:hover {
+  background: #b2004a;
+  color: #fff;
+}
+body.theme--bordo.dos-single-unit .dos-information-accordion .dos-main-information-wrapper .dos-main-information.active .dos-main-information__nav, body.theme--bordo.dos-module-home .dos-information-accordion .dos-main-information-wrapper .dos-main-information.active .dos-main-information__nav, body.theme--bordo.dos-module-home.first .dos-information-accordion .dos-main-information-wrapper .dos-main-information .dos-main-information__nav {
+  border-color: #98003F;
+}
+body.theme--bordo.dos-single-unit .dos-information-accordion .dos-main-information-wrapper .dos-main-information .dos-main-information__nav, body.theme--bordo.dos-module-home .dos-information-accordion .dos-main-information-wrapper .dos-main-information .dos-main-information__nav {
+  border-color: #F9EDF2;
+  background-color: #F9EDF2;
+}
+body.theme--bordo.dos-module-home.first .dos-information-accordion .dos-main-information-wrapper .dos-main-information .dos-main-information__nav {
+  background-color: #fff;
+}
+body.theme--bordo .dos-main-banner a.dos-unit-nav {
+  background: #fff;
+  border: 1px solid #98003F;
+}
+@media (max-width: 767px) {
+  body.theme--bordo .dos-main-banner a.dos-unit-nav {
+    background: none;
+    border-color: transparent;
+  }
+  body.theme--bordo .dos-main-banner a.dos-unit-nav svg > path {
+    fill: #fff !important;
+  }
+}
+body.theme--bordo .dos-toggle__btn input:checked + .dos-toggle__slider:before {
+  background-color: #98003F;
+}
+body.theme--bordo .dos-inclusive-content.on .dos-inclusive-content__alt {
+  border-color: #98003F;
+}
+body.theme--bordo .dos-alert.active, body.theme--bordo .dos-alert:hover {
+  border-color: #98003F;
+}
+body.theme--bordo .memory {
+  border-color: #98003F;
+}
+body.theme--bordo svg.upute-icon path {
+  fill: #98003F;
+}
+body.theme--bordo .dos-btn-def-basic > svg path {
+  fill: #fff;
+}
+body.theme--bordo .dos-btn-def-basic svg.update path {
+  stroke: #fff;
+}
+body.theme--bordo .dos-circle svg path {
+  fill: #fff;
+}
+body.theme--bordo .dos-circle svg.icon-equally line {
+  stroke: #fff;
+}
+body.theme--bordo .dos-circle svg.pen path:last-of-type {
+  stroke: #fff;
+  fill: none;
+}
+body.theme--bordo .dos-circle svg.icon-theme rect:first-of-type {
+  stroke: #fff;
+}
+body.theme--bordo .dos-circle svg.icon-theme rect:last-of-type {
+  fill: #98003F;
+}
+body.theme--bordo .dos-circle svg.icon-theme line {
+  stroke: #fff;
+}
+body.theme--bordo svg.arrow-top path,
+body.theme--bordo svg.share path,
+body.theme--bordo svg.settings-site path {
+  fill: #333;
+}
+body.theme--bordo .dos-network-list .dos-circle svg path {
+  fill: #333;
+}
+body.theme--bordo svg.artificial-intelligence path:first-of-type {
+  fill: #F9EDF2;
+}
+body.theme--bordo [data-question-type="Povlačenje parova"] td:focus {
+  background: #98003F !important;
+  color: #fff !important;
+}
+body.theme--bordo [data-question-type="Povlačenje parova"] td.dos-state-item.draggable-active {
+  background: #98003F !important;
+  color: #fff !important;
+}
+body.theme--bordo [data-question-type="Povlačenje parova"] .over {
+  background: #cb0054 !important;
+}
+body.theme--bordo [data-question-type="Razvrstavanje elemenata"] .dos-drag-area.drop-target {
+  border-color: #98003F !important;
+}
+body.theme--bordo [data-question-type="Povlačenje riječi"] .dos-answer-draggable.draggable-active, body.theme--bordo [data-question-type="Povlačenje riječi"] .dos-answer-draggable:focus,
+body.theme--bordo [data-question-type="Razvrstavanje elemenata"] .dos-answer-draggable.draggable-active,
+body.theme--bordo [data-question-type="Razvrstavanje elemenata"] .dos-answer-draggable:focus,
+body.theme--bordo [data-question-type="Uređivanje poretka elemenata"] .dos-answer-draggable.draggable-active,
+body.theme--bordo [data-question-type="Uređivanje poretka elemenata"] .dos-answer-draggable:focus,
+body.theme--bordo [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.draggable-active,
+body.theme--bordo [data-question-type="Povlačenje na sliku"] .dos-answer-draggable:focus {
+  background: #98003F !important;
+  color: #fff !important;
+}
+body.theme--bordo [data-question-type="Povlačenje riječi"] .dos-answer-draggable.over,
+body.theme--bordo [data-question-type="Razvrstavanje elemenata"] .dos-answer-draggable.over,
+body.theme--bordo [data-question-type="Uređivanje poretka elemenata"] .dos-answer-draggable.over,
+body.theme--bordo [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.over {
+  background: #cb0054 !important;
+}
+body.theme--bordo [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.ui-draggable-dragging,
+body.theme--bordo [data-question-type="Povlačenje riječi"] .dos-answer-draggable.ui-draggable-dragging {
+  background: #98003F !important;
+  color: #fff !important;
+}
+body.theme--bordo [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.over,
+body.theme--bordo [data-question-type="Povlačenje riječi"] .dos-answer-draggable.over {
+  background: #cb0054 !important;
+}
+body.theme--bordo [data-question-type="Povlačenje na sliku"] .dos-drag-area.drop-target,
+body.theme--bordo [data-question-type="Povlačenje riječi"] .dos-drag-area.drop-target {
+  background: #cb0054 !important;
+}
+body.theme--bordo.dos-module-home .dos-page-main-full .dos-col-wrapper .dos-col-main .dos-module .inner strong {
+  color: #98003F;
+}
+body.theme--bordo .can-drop-style {
+  border-color: #98003F !important;
+}
+body.theme--bordo.dos-dictionary .term .btn-audio {
+  background-color: #98003F;
+}
+body.theme--bordo .dos-scrollspy-dictionary .nav li a:hover,
+body.theme--bordo .dos-scrollspy-dictionary .nav li a.active {
+  background-color: #98003F;
+  color: #fff;
+}
+body.theme--bordo input[type=email]:focus,
+body.theme--bordo input[type=number]:focus,
+body.theme--bordo input[type=password]:focus,
+body.theme--bordo input[type=tel]:focus,
+body.theme--bordo input[type=url]:focus,
+body.theme--bordo input[type=text]:focus,
+body.theme--bordo textarea:focus {
+  border-color: #98003F;
+}
+body.theme--bordo .drag-drop.can-drop, body.theme--bordo .can-drop-style {
+  background-color: #98003F !important;
+  color: #fff !important;
+}
+body.theme--bordo .dos-preloader .loader {
+  border-left: 1.1em solid #98003F;
+}
+body.theme--bordo .danger,
+body.theme--bordo .can-drop-style.danger {
+  border-color: #cb3c2b !important;
+  background: #ffc5bf !important;
+  color: #000000 !important;
+}
+body.theme--bordo .success,
+body.theme--bordo .can-drop-style.success {
+  border-color: #45bb63 !important;
+  background: #d2f9dc !important;
+  color: #000000 !important;
+}
+body.theme--bordo .dos-unit-pagination .pagination li a:hover {
+  background-color: #F9EDF2;
+}
+body.theme--bordo .dos-unit-pagination .pagination li.active a {
+  border-color: #98003F;
+}
+body.theme--bordo .image-options > div {
+  border: 2px solid #98003F;
+}
+body.theme--bordo a[target=_blank]:before,
+body.theme--bordo a[href^="https://"]:before,
+body.theme--bordo a[href^="http://"]:before,
+body.theme--bordo a[target=_blank]:before,
+body.theme--bordo a[href^="https://"]:before,
+body.theme--bordo a[href^="http://"]:before,
+body.theme--bordo a[target=_blank]:hover:before,
+body.theme--bordo a[href^="https://"]:hover:before,
+body.theme--bordo a[href^="http://"]:hover:before {
+  border-color: #98003F;
+}
+body.theme--bordo a > span.reference-last-word {
+  display: inline-block;
+}
+body.theme--bordo a > span.reference-last-word:after {
+  background-color: #98003F;
+}
+body.theme--bordo .dos-col-side a {
+  border-color: #98003F;
+}
+body.theme--bordo .dos-col-side a:hover {
+  border-color: #98003F;
+}
+body.theme--bordo .dos-col-main-shell a:not([data-fancybox]) {
+  border-color: #98003F;
+}
+body.theme--bordo .dos-col-main-shell a:not([data-fancybox]):hover {
+  border-color: #98003F;
+}
+body.theme--bordo .btn-audio-alternative {
+  background-color: #98003F;
+}
+body.theme--bordo [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.draggable-active.pin-marker,
+body.theme--bordo [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.pin-marker:focus {
+  background-color: transparent !important;
+  border: solid 2px #98003F !important;
+}
+body.theme--bordo [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.over.pin-marker {
+  background-color: transparent !important;
+  border: solid 2px #98003F !important;
+}
+body.theme--bordo [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.ui-draggable-dragging.pin-marker {
+  background-color: transparent !important;
+  border: solid 2px #98003F !important;
+}
+body.theme--bordo [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.over.pin-marker {
+  background-color: transparent !important;
+  border: solid 2px #98003F !important;
+}
+body.theme--bordo [data-question-type="Povlačenje na sliku"] .dos-drag-area.drop-target.pin-marker {
+  background-color: transparent !important;
+  border: solid 2px #98003F !important;
+}
+body.theme--bordo .drag-drop.can-drop.pin-marker,
+body.theme--bordo .can-drop-style.pin-marker {
+  background-color: transparent !important;
+  border: solid 2px #98003F !important;
+}
+body.theme--bordo .drag-drop.can-drop.danger.pin-marker {
+  background: #ffc5bf !important;
+}
+body.theme--bordo .drag-drop.can-drop.success.pin-marker {
+  background: #d2f9dc !important;
+}
+body.theme--bordo button.dos-btn-def-basic:focus {
+  box-shadow: inset 0 0 0px 3px #65002a;
+  border-color: #65002a;
+}
+body.theme--bordo .dos-option-radio-view-2 input:focus ~ label {
+  border-color: #98003F;
+  box-shadow: 0 0 3px #98003F;
+}
+body.theme--bordo .drag-drop.can-drop, body.theme--bordo .can-drop-style {
+  background-color: #98003F;
+  border-color: #65002a !important;
+}
+body.theme--bordo .keyboard > button:focus {
+  border-color: #98003F;
+  box-shadow: 0 0 3px #98003F;
+}
+@media (max-width: 1134px) {
+  body.theme--bordo #dropdownMenu1 + .dropdown-menu.show > ul {
+    background-color: #F9EDF2;
+    border-bottom: 2px solid #fff;
+  }
+}

@@ -1,0 +1,384 @@
+/* INICIJALIZACIJA */
+@charset "UTF-8";
+/* /////////////// */
+
+/* BAZA */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: radial-gradient(#8751391f 20%, transparent 20%);
+  background-color: #fbe5db;
+  background-position: 0 0, 50px 50px;
+  background-size: 25px 25px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Opera and Firefox */
+}
+
+.panel {
+  background-color: #fff;
+  border: solid 2px #000;
+  box-shadow: 0 6px 6px -6px #000;
+  display: inline-block;
+  height: 200px;
+  flex-basis: 190px;
+  margin: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .panel {
+    flex-basis: 100%;
+  }
+}
+
+.panel img {
+  width: 125px;
+  margin: 50px;
+}
+
+/* /////////////// */
+
+/* ILUSTRACIJA 1 */
+.panel:nth-child(1) {
+  background-color: #f3f1ec;
+  color: #ff2c5b;
+}
+
+/* /////////////// */
+
+/* ILUSTRACIJA 2 */
+.panel:nth-child(2) {
+  background-color: #fff2d2;
+  color: #9d6b52;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 3 */
+.panel:nth-child(3) {
+  background-color: #f7bf96;
+  color: #99522e;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 4 */
+.panel:nth-child(4) {
+  background-color: #fbd5db;
+  color: #ae2537;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 5 */
+.panel:nth-child(5) {
+  background-color: #f9eedf;
+  color: #c89978;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 6 */
+.panel:nth-child(6) {
+  background-color: #f7d8da;
+  color: #e5646e;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 7 */
+.panel:nth-child(7) {
+  background-color: #f5ecd5;
+  color: #3f5666;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 8 */
+.panel:nth-child(8) {
+  background-color: #f5e8e8;
+  color: #aec4e4;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 9 */
+.panel:nth-child(9) {
+  background-color: #def9e3;
+  color: #73b96e;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 10 */
+.panel:nth-child(10) {
+  background-color: #f5f0f0;
+  color: #ff5757;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 11 */
+
+.panel:nth-child(11) {
+  background-color: #f1d7c4;
+  color: #c48d66;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 12 */
+.panel:nth-child(12) {
+  background-color: #ffffff;
+  color: #767988;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 13 */
+.panel:nth-child(13) {
+  background-color: #f1dfc2;
+  color: #f05540;
+}
+/* //////////////// */
+
+/* ILUSTRACIJA 14 */
+.panel:nth-child(14) {
+  background-color: #dfe8fb;
+  color: #8db0ff;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 15 */
+.panel:nth-child(15) {
+  background-color: #f5ecd5;
+  color: #e9971b;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 16 */
+.panel:nth-child(16) {
+  background-color: #67a2d2;
+  color: #ffd883;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 17 */
+.panel:nth-child(17) {
+  background-color: #c84146;
+  color: #fff;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 18 */
+.panel:nth-child(18) {
+  background-color: #e7ecf5;
+  color: #5a5d6f;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 19 */
+.panel:nth-child(19) {
+  background-color: #f5ecd5;
+  color: #ffc250;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 20 */
+.panel:nth-child(20) {
+  background-color: #fbfbfb;
+  color: #828282;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 21 */
+.panel:nth-child(21) {
+  background-color: #fff6d9;
+  color: #ffa037;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 22 */
+.panel:nth-child(22) {
+  color: #ff6464;
+  background-color: #fbfbfb;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 23 */
+.panel:nth-child(23) {
+  background-color: #867e88;
+  color: #ffe17d;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 24 */
+.panel:nth-child(24) {
+  background-color: #f3b573;
+  color: #fff;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 25 */
+.panel:nth-child(25) {
+  background-color: #bde7ff;
+  color: #b6805a;
+}
+
+/* //////////////// */
+
+/* ILUSTRACIJA 26 */
+.panel:nth-child(26) {
+  background-color: #dbd9dc;
+  color: #4a404f;
+}
+
+/* //////////////// */
+
+.playAnimation {
+  cursor: pointer !important;
+}
+
+.playAnimation:after {
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f04b";
+  font-size: 45px;
+  color: #414141;  
+  position:absolute;
+  bottom: calc(50% - 25px);
+  left: calc(50% - 20px);
+  z-index: 2;
+  opacity:0;
+}
+
+
+.playAnimation:hover:after {
+  opacity:1;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .interactionTitle {
+    font-size: 22px;
+    margin: 15px 0px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .panel:before {
+    font-size: 35px !important;
+}
+
+.panel img {
+  width: 85px;
+  margin: 60px 0px;
+}
+
+  .usingCss > div {
+    height: 120px !important;
+  }
+
+  .panel {
+    background-color: #fff;
+    border: solid 2px #000;
+    box-shadow: 0 6px 6px -6px #000;
+    display: inline-block;
+    height: 130px;
+    width: 110px;
+    flex-basis: 110px;
+    margin: 12px;
+    overflow: hidden;
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+  }
+
+  .panel > h5 {
+    font-size: 22px;
+    margin-top: 20%;
+  }
+  
+  .panel > p {
+    font-size: 11px;
+    text-transform: uppercase;
+  }
+
+  #appendLetter {
+    height: 85vh;
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    flex-flow: column wrap;
+  }
+
+  .playAnimation:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f04b";
+    font-size: 35px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+    margin: auto;
+    padding: 25% 0% 0% 5%;
+    color: #f5c9b4;
+    position: absolute;
+    bottom: calc(0%);
+    left: calc(0%);
+    z-index: 2;
+    opacity: 0;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  #slider {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+ #slider {
+   top: 11px!important;
+   display: block;
+ }
+ .interactionTitle {
+   padding-left: 80px;
+   text-align: left;
+   margin: 5px 0px;
+ }
+ #appendLetter {
+  height: 85vh;
+  margin: auto;
+ }
+
+ #app > div {
+   height: 600px;
+ }
+}

@@ -1,0 +1,162 @@
+/* 
+----------------
+    GLOBAL 
+----------------
+*/
+.ecw-answerbox
+{
+	color: black;
+	background-color: #e9ecef;
+	border-color: #808080;
+	border-style: solid;
+	border-width: 0.5px;
+	display: block;
+	padding: .75em;
+	width: 100%;
+	height: 100%;
+}
+
+.ecw-box
+{
+	border-style: solid;
+	border-width: 1pt;
+	cursor: pointer;
+	font-size: .12in;
+	font-weight: bold;
+	/* height: .40in; */
+	height: 2.5em;
+	overflow: hidden;
+	text-align: center;
+	width: .40in;
+}
+
+.ecw-boxcheated_sel
+{
+	background-color: #FFF1D7;
+	border-color: #C00000;
+	color: #000;
+}
+
+.ecw-boxcheated_unsel
+{
+	background-color: #ffffff;
+	border-color: #606060;
+	color: #000;
+}
+
+.ecw-boxerror_sel
+{
+	background-color: #FFF1D7;
+	border-color: #C00000;
+	color: #BF0000;
+}
+
+.ecw-boxerror_unsel
+{
+	background-color: #FFF0F0;
+	border-color: #606060;
+	color: #BF0000;
+}
+
+.ecw-boxnormal_sel
+{
+	background-color: #FFF1D7;
+	border-color: #C00000;
+	color: #000000;
+}
+
+.ecw-boxnormal_unsel
+{
+	background-color: #ffffff;
+	border-color: #606060;
+	color: #000000;
+}
+
+.ecw-button
+{
+	width: 64pt;
+}
+
+.ecw-cluebox
+{
+	border-bottom-width: 1px;
+	border-color: #c0c0c0;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-style: solid;
+	border-top-width: 1px;
+	margin-top: 1em;
+	padding-bottom: .5em;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: .5em;
+}
+
+.ecw-crosswordarea
+{
+	background-color: #e9ecef;
+	border-color: #343a40;
+	border-style: solid;
+	border-width: 1.2px;
+	padding: .5em;
+	font-size: large;
+    overflow-x: auto;
+	-webkit-overflow-scrolling: touch;
+	height: 100%;
+}
+
+.ecw-input
+{
+	font-family: "Segoe UI", "Verdana", "Arial", sans-serif;
+}
+
+.ecw-wordlabel
+{
+	text-transform: uppercase;
+	margin: 0;
+}
+
+.ecw-wordinfo
+{
+	font-size: 8pt;
+	color: #808080;
+}
+
+.ecw-worderror
+{
+	color: #c00000;
+	font-weight: bold;
+	display: none;
+	margin-top: 1em;
+}
+
+#questbox {
+	width: 100%;
+	height: 100%;
+	background-color: #cce5ff;
+	border: 1px solid #343a40;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 250px;
+}
+
+#questbox i {
+	font-size: 70px;
+}
+
+@media only screen and (max-device-width: 480px)  {   
+ #dioButtonko {
+	text-align: center;
+ }
+}
+
+/*
+----------------
+*/
+
+@media only screen and (min-width: 700px) {
+	.ecw-box
+	{
+	height: 3.2em;
+	}
+}

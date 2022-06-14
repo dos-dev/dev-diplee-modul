@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- META_TAGOVI -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+
+    <!-- FRAMEWORK -//- CSS -->
+    <link rel="stylesheet" href="UX/Framework/Bootstrap/bootstrap.min.css">
+
+    <!-- FRAMEWORK -//- CSS -->
+    <link rel="stylesheet" href="UX/CSS/Krizaljka.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- NASLOV -->
+    <title>MM-F5-02-03-10 - Kolarić Matija</title>
+    <!-- /NASLOV -->
+ </head>
+ <body>
+
+     <!-- OBAVIJEST -->
+    <div id="waitmessage" class="ecw-answerbox">Potrebno je omogućiti JavaScript.</div>
+     <!-- /OBAVIJEST -->
+
+    <!-- MAIN DIO -->
+    <main role="main">
+
+        <div id="welcomemessage" class="alert alert-primary" role="alert" style="display:none; position: fixed; z-index: 999; width: 100%;">
+            <i class="fa fa-smile-o" aria-hidden="true"></i> Pour commencer la grille de mots croisés, cliquez sur n'importe quel carré.
+       </div>
+
+          
+            <div id="puzzle" class="container">
+              <!-- Example row of columns -->
+    
+
+              <div class="row">
+                    <div class="col-md-6">
+                        <div class="ecw-crosswordarea"></div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div id="questbox">
+                            <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    </div>
+                    <div id="answerbox" class="ecw-answerbox" style="display:none;">
+                            <h3 id="wordlabel" class="ecw-wordlabel"> &nbsp;</h3>
+                            <div id="wordinfo" class="ecw-wordinfo"> </div>
+                            <div id="wordclue" class="ecw-cluebox"> </div>
+                            <div style="margin-top: 1em;">
+                                <input class="ecw-input" id="wordentry" type="text" size="24" style="font-weight: bold; text-transform:uppercase;" onkeypress="WordEntryKeyPress(event)" onchange="WordEntryKeyPress(event)" />
+                            </div>
+                            <div id="worderror" class="ecw-worderror"></div>
+                        
+                            <table border="0" cellspacing="0" cellpadding="0" width="100%" style="margin-top:1em;">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <button id="cheatbutton" type="button" class="ecw-input ecw-button btn btn-danger btn-sm" onclick="CheatClick();">Solution.</button>
+                                        </td>
+                                        <td align="right">
+                                            <button id="okbutton" type="button" class="ecw-input btn btn-success btn-sm" onclick="OKClick();" style="font-weight: bold;">Confirmez.</button> &nbsp;
+                                            <button id="cancelbutton" type="button" class="ecw-input ecw-button btn btn-warning btn-sm" onclick="DeselectCurrentWord();">Annuler.</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div id="congratulations" class="ecw-answerbox" style="display:none;">
+                            <h3>Félicitations!</h3>
+                        </div>
+                    </div>
+
+                        <div id="dioButtonko" style="margin: 1em; width: 100%;">
+                                <button id="checkbutton" class="btn btn-sm btn-primary" type="button" onclick="CheckClick();" style="display: none;">Vérifier.</button>
+                        </div>
+                    
+              </div>
+        
+            </div>           
+          </main>
+
+
+    <!-- /MAIN DIO -->
+
+    <!-- FRAMEOWRK -//- JS -->
+    <script src="UX/Framework/JQuery/jquery-3.3.1.min.js"></script>
+    <script src="UX/Framework/JQuery/animations.js"></script>
+    <script src="UX/Framework/Bootstrap/popper.min.js"></script>
+    <script src="UX/Framework/Bootstrap/bootstrap.min.js"></script>
+
+
+    <!-- MY -//- JS -->
+    <script src="UX/JS/Krizaljka.js"></script>
+  <script src="../../js/vendor/iframeSizer.contentWindow.min-1599320405590.js"></script><div data-iframe-height="" style="position: relative;min-height: 1px;"></div>
+<script src='../../vendor/iframe-resizer/iframeResizer.contentWindow.min.js'></script></body>
+</html>

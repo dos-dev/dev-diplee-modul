@@ -1,0 +1,626 @@
+@charset "UTF-8";
+body.theme--yellow {
+  /*
+  a[target=_blank]:after,
+  a[href^="https://"]:after,
+  a[href^="http://"]:after {
+    background-color: $yellow;
+  }
+  */
+  /*.dos-col-wrapper a {
+    border-color: $yellow;
+    &:hover {
+      border-color: $yellow;
+    }
+  }*/
+  /** ADD.CSS **/
+  /** klasa koju dizajneri trebaju prebaciti u main.css, 
+  jer će sadržavati boje teme, tu treba dodati boju koja će se prikazivati na gumbima provjeri, 
+  resetiraj i pomoć, a maknuti border */
+  /** klasa koju dizajneri trebaju prebaciti u main.css, 
+  jer će sadržavati boje teme - iz klase treba izbaciti obrub (zadnji prop) */
+  /** klasa koju dizajneri trebaju prebaciti u main.css, 
+  jer će sadržavati boje teme */
+  /** ovo mogu prebaciti u main.css, 
+  ako žele - ovo je stil koji određuje kako izgleda fokusirani gumb na onom dodatnom Spajkijevom keyboardu */
+}
+body.theme--yellow .dos-main-banner {
+  background: #FFD452;
+}
+body.theme--yellow .dos-header-navigate .dos-share:hover,
+body.theme--yellow .dos-header-navigate .dos-settings:hover {
+  background-color: #FFD452;
+}
+body.theme--yellow .dos-dropdown-btn.active:not(.dos-settings) {
+  background-color: #FFD452;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-dropdown.show[title=Postavke] .dos-settings {
+  background-color: #FFD452;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-main-information svg path {
+  stroke: #FFD452;
+}
+body.theme--yellow .dos-main-information.active {
+  border-color: #FFD452;
+  background: #FFF8E3;
+}
+body.theme--yellow .dos-main-information.active svg path {
+  stroke: #FFD452;
+}
+body.theme--yellow .dos-key-terms__tabs a {
+  border-bottom: 1.5px solid #FFD452;
+}
+body.theme--yellow .dos-callout {
+  border-bottom: solid 2px #FFD452;
+}
+body.theme--yellow .dos-callout__icon {
+  background: #FFD452;
+}
+body.theme--yellow .dos-part a:not(.dos-link-float) {
+  border-bottom: solid 2px #FFD452;
+}
+body.theme--yellow .dos-part a:not(.dos-link-float):before {
+  border-bottom: dashed 2px #FFD452;
+}
+body.theme--yellow .dos-part--highlight {
+  border: solid 2px #FFD452;
+  background: #FFF8E3;
+}
+body.theme--yellow .dos-part--transparent {
+  border: solid 2px #FFD452;
+}
+body.theme--yellow .dos-hedding__icon {
+  background: #FFD452;
+}
+body.theme--yellow .dos-settings-group__btn button {
+  background: #FFD452;
+}
+body.theme--yellow .dos-settings-group input:checked ~ label {
+  border-color: #FFD452;
+  background: #FFF8E3;
+}
+body.theme--yellow .dos-settings-group input:checked ~ label:before {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-settings-list__link svg path {
+  fill: #FFD452;
+}
+body.theme--yellow .dos-reference__icon {
+  background: #FFD452;
+  border: solid 2px #FFD452;
+}
+body.theme--yellow .dos-reference__icon:hover {
+  background: #fff;
+}
+body.theme--yellow .dos-btn-def {
+  border: solid 2px #FFD452;
+}
+body.theme--yellow .dos-btn-def--transparent {
+  border-color: transparent;
+}
+body.theme--yellow .dos-btn-def:not(.dos-btn-def--transparent):hover {
+  background-color: #FFF8E3;
+}
+body.theme--yellow .dos-alert.active {
+  border-color: #FFD452;
+}
+body.theme--yellow .fancybox-thumbs > ul > li:before {
+  border-color: #FFD452;
+}
+body.theme--yellow .doc-solution {
+  background: #FFF8E3;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-btn-def-basic {
+  background-color: #FFD452;
+  border: solid 2px #FFD452;
+}
+body.theme--yellow .dos-sortable .ui-sortable-helper {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-scroll-top .dos-circle {
+  background: #FFD452;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-scroll-top .dos-circle:hover {
+  background-color: #FFF8E3;
+  border-color: #FFF8E3;
+}
+body.theme--yellow .dos-option-radio-view-2 input:checked ~ label {
+  background: #FFD452;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-answer-draggable {
+  background: #FFF8E3;
+  border: solid 2px #FFD452;
+}
+body.theme--yellow .dos-sortable-picture li {
+  display: flex;
+  align-items: center;
+}
+body.theme--yellow .dos-sortable-picture .dos-sortable-number {
+  margin-left: 10px;
+  margin-right: 37px;
+}
+@media (max-width: 767px) {
+  body.theme--yellow .dos-sortable-picture .dos-sortable-number {
+    margin-right: 15px;
+  }
+}
+body.theme--yellow .dos-sortable-picture .dos-drag-area {
+  margin-bottom: 18px;
+  display: flex;
+}
+@media (max-width: 767px) {
+  body.theme--yellow .dos-sortable-picture .dos-drag-area {
+    display: block;
+  }
+}
+body.theme--yellow .dos-sortable-picture .dos-answer .dos-circle {
+  background: #FFD452;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-collection-tasks {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-collection-tasks__title {
+  background: #FFD452;
+}
+body.theme--yellow .dos-collection-tasks .slick-dots li {
+  background: #FFF8E3;
+}
+body.theme--yellow .dos-collection-tasks .slick-dots li.slick-active {
+  background: #fff;
+}
+@media (max-width: 767px) {
+  body.theme--yellow .dos-collection-tasks .slick-dots {
+    background-color: #FFD452;
+  }
+}
+body.theme--yellow .dos-slider-tasks-nav .dos-slide__prev, body.theme--yellow .dos-slider-tasks-nav .dos-slide__next {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-link {
+  border-bottom: solid 2px #FFD452;
+}
+body.theme--yellow .dos-link:before {
+  border-bottom: dashed 2px #FFD452;
+}
+body.theme--yellow .dos-link:hover {
+  border-color: #fff;
+}
+body.theme--yellow .dos-col-side .dos-icon svg path {
+  fill: #FFD452;
+}
+body.theme--yellow .dos-sortable-picture .dos-circle {
+  background: #FFD452;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-key-terms a {
+  border-bottom: 1.5px solid #FFD452;
+}
+body.theme--yellow .dos-key-terms a:before {
+  border-bottom: dashed 2px #FFD452;
+}
+body.theme--yellow .dos-key-terms a:hover {
+  border-color: #fff;
+}
+body.theme--yellow .dos-key-terms a:hover:before {
+  opacity: 1;
+}
+body.theme--yellow .dos-btn-def {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-btn-def:not(.dos-btn-def--transparent):hover {
+  background-color: #FFF8E3;
+}
+body.theme--yellow .dos-btn-def-basic {
+  background-color: #FFD452;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-btn-def-basic:hover, body.theme--yellow .dos-btn-def-basic:active, body.theme--yellow .dos-btn-def-basic:focus {
+  background-color: #FBC72B;
+  border-color: #FBC72B;
+}
+body.theme--yellow .dos-link {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-link:before {
+  border-color: #FFD452;
+}
+body.theme--yellow input[type=email]:focus,
+body.theme--yellow input[type=number]:focus,
+body.theme--yellow input[type=password]:focus,
+body.theme--yellow input[type=tel]:focus,
+body.theme--yellow input[type=url]:focus,
+body.theme--yellow input[type=text]:focus,
+body.theme--yellow textarea:focus {
+  border-color: #FFD452;
+}
+@media (min-width: 1024px) {
+  body.theme--yellow .dos-header-navigate .dos-share:hover,
+body.theme--yellow .dos-header-navigate .dos-settings:hover {
+    background-color: #FFD452;
+    border-color: #FFD452;
+  }
+}
+body.theme--yellow .dos-dropdown-btn.active {
+  background-color: #FFD452;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-settings-group__btn button {
+  background: #FFD452;
+}
+body.theme--yellow .dos-settings-group input:checked ~ label {
+  border-color: #FFD452;
+  background: #FFF8E3;
+}
+body.theme--yellow .dos-settings-group input:checked ~ label:before {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-footer {
+  background: #FFD452;
+}
+body.theme--yellow .dos-footer .dos-commons {
+  border-color: #f5b800;
+}
+body.theme--yellow .plyr__volume input[type=range],
+body.theme--yellow .plyr--full-ui input[type=range] {
+  color: #FFD452;
+}
+body.theme--yellow .plyr--audio {
+  border-color: #FFD452;
+  background: #FFF8E3;
+}
+body.theme--yellow .dos-col-main-shell a:not([data-fancybox]) {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-col-main-shell a:not([data-fancybox]):hover {
+  border-color: #FFD452;
+}
+body.theme--yellow table.table {
+  border-color: #FFD452;
+}
+body.theme--yellow table.table tr th {
+  background-color: #FFF8E3;
+}
+body.theme--yellow table.table tr:nth-of-type(odd) {
+  background-color: #fffefd;
+}
+body.theme--yellow table.table tr:nth-of-type(even) {
+  background-color: #FFF8E3;
+}
+body.theme--yellow .dos-main-banner a.dos-unit-nav {
+  background-color: #ffe79f;
+}
+body.theme--yellow.dos-single-unit .dos-information-accordion .dos-main-information-wrapper .dos-main-information .dos-main-information__nav, body.theme--yellow.dos-module-home .dos-information-accordion .dos-main-information-wrapper .dos-main-information .dos-main-information__nav {
+  background-color: #FFF8E3;
+  border-color: #FFF8E3;
+}
+body.theme--yellow.dos-single-unit .dos-information-accordion .dos-main-information-wrapper .dos-main-information .dos-main-information__view, body.theme--yellow.dos-module-home .dos-information-accordion .dos-main-information-wrapper .dos-main-information .dos-main-information__view {
+  background: #FFF8E3;
+  border-color: #FFD452;
+}
+body.theme--yellow.dos-single-unit .dos-information-accordion .dos-main-information-wrapper .dos-main-information.active .dos-main-information__nav, body.theme--yellow.dos-module-home .dos-information-accordion .dos-main-information-wrapper .dos-main-information.active .dos-main-information__nav {
+  border-color: #FFD452;
+}
+body.theme--yellow.dos-module-home .dos-page-main-full .dos-col-wrapper .dos-col-main .dos-module .inner strong {
+  color: #FFD452;
+}
+body.theme--yellow.dos-module-home .dos-page-main-full .dos-col-wrapper .dos-col-main .dos-module .inner:hover {
+  border-color: #FFD452;
+  background: #FFF8E3;
+}
+body.theme--yellow.dos-module-home .dos-page-main-full .dos-col-wrapper .dos-col-main .dos-module .inner:hover h5 {
+  background: #FFF8E3;
+}
+body.theme--yellow.dos-module-home .dos-page-main-full .dos-col-wrapper .dos-col-main .dos-activity-btn > a {
+  border-color: #FFD452;
+  background-color: #FFF8E3;
+}
+body.theme--yellow.dos-module-home .dos-page-main-full .dos-col-wrapper .dos-col-main .dos-activity-btn > a:hover {
+  background-color: #FFD452;
+}
+body.theme--yellow.dos-module-home.first .dos-page-main-full .dos-col-wrapper .dos-col-main .dos-module .inner strong {
+  color: #FFD452;
+  -webkit-text-stroke: 1px #FFD452;
+}
+body.theme--yellow.dos-dictionary .term .btn-audio {
+  background-color: #FFD452;
+}
+body.theme--yellow .dos-scrollspy-dictionary .nav li a:hover, body.theme--yellow .dos-scrollspy-dictionary .nav li a.active {
+  background-color: #FFD452;
+}
+body.theme--yellow .dos-inclusive-content.on .dos-inclusive-content__alt {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-toggle__btn input:checked + .dos-toggle__slider:before {
+  background-color: #FFD452;
+}
+body.theme--yellow .drag-drop.can-drop, body.theme--yellow .can-drop-style {
+  background-color: #FFD452;
+}
+body.theme--yellow [data-question-type="Povlačenje parova"] td:focus {
+  background: #FFD452 !important;
+}
+body.theme--yellow [data-question-type="Povlačenje parova"] td.dos-state-item.draggable-active {
+  background: #FFD452 !important;
+}
+body.theme--yellow [data-question-type="Povlačenje parova"] .over {
+  background: #ffe185 !important;
+}
+body.theme--yellow [data-question-type="Razvrstavanje elemenata"] .dos-drag-area.drop-target {
+  border-color: #FFD452 !important;
+}
+body.theme--yellow [data-question-type="Povlačenje riječi"] .dos-answer-draggable.draggable-active, body.theme--yellow [data-question-type="Povlačenje riječi"] .dos-answer-draggable:focus,
+body.theme--yellow [data-question-type="Razvrstavanje elemenata"] .dos-answer-draggable.draggable-active,
+body.theme--yellow [data-question-type="Razvrstavanje elemenata"] .dos-answer-draggable:focus,
+body.theme--yellow [data-question-type="Uređivanje poretka elemenata"] .dos-answer-draggable.draggable-active,
+body.theme--yellow [data-question-type="Uređivanje poretka elemenata"] .dos-answer-draggable:focus,
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.draggable-active,
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .dos-answer-draggable:focus {
+  background: #FFD452 !important;
+}
+body.theme--yellow [data-question-type="Povlačenje riječi"] .dos-answer-draggable.over,
+body.theme--yellow [data-question-type="Razvrstavanje elemenata"] .dos-answer-draggable.over,
+body.theme--yellow [data-question-type="Uređivanje poretka elemenata"] .dos-answer-draggable.over,
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.over {
+  background: #ffe185 !important;
+}
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.ui-draggable-dragging,
+body.theme--yellow [data-question-type="Povlačenje riječi"] .dos-answer-draggable.ui-draggable-dragging {
+  background: #FFD452 !important;
+}
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.over,
+body.theme--yellow [data-question-type="Povlačenje riječi"] .dos-answer-draggable.over {
+  background: #ffe185 !important;
+}
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .dos-drag-area.drop-target,
+body.theme--yellow [data-question-type="Povlačenje riječi"] .dos-drag-area.drop-target {
+  background: #ffe185 !important;
+}
+body.theme--yellow .dos-preloader .loader {
+  border-left: 1.1em solid #FFD452;
+}
+body.theme--yellow .dos-unit-pagination .pagination li a:hover {
+  background-color: #FFF8E3;
+}
+body.theme--yellow .dos-unit-pagination .pagination li.active a {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-main-banner {
+  background: #FFD452;
+}
+body.theme--yellow .dos-main-information.active {
+  border-color: #FFD452;
+  background: #FFF8E3;
+}
+body.theme--yellow .dos-key-terms__tabs a {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-key-terms__tabs a:before {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-col-wrapper .dos-part a:not(.dos-link-float) {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-col-wrapper .dos-part a:not(.dos-link-float):before {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-col-wrapper .dos-part a:not(.dos-link-float):hover {
+  border-color: #fff;
+}
+body.theme--yellow .dos-col-wrapper .dos-part--highlight {
+  border-color: #FFD452;
+  background: #FFF8E3;
+}
+body.theme--yellow .dos-col-wrapper .dos-part--transparent {
+  border-color: #FFD452;
+}
+@media (max-width: 991px) {
+  body.theme--yellow .dos-col-wrapper .dos-col-side-hero {
+    border-color: #FFD452;
+  }
+}
+body.theme--yellow .dos-reference__icon {
+  background: #FFD452;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-alert.active, body.theme--yellow .dos-alert:hover {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-hedding__icon {
+  background: #FFD452;
+}
+body.theme--yellow .dos-dyk-slider .dos-slide__prev {
+  background-color: #FFF8E3;
+  border-color: #ffebb0;
+}
+body.theme--yellow .dos-dyk-slider .dos-slide__next {
+  background-color: #FFF8E3;
+}
+body.theme--yellow .dos-dyk-slider .dos-custom_paging li {
+  color: #FFD452;
+}
+@supports (-webkit-text-stroke: 1px #000) {
+  body.theme--yellow .dos-dyk-slider .dos-custom_paging li {
+    -webkit-text-stroke: 1px #FFD452;
+  }
+}
+body.theme--yellow .dos-dyk .title h2:last-of-type::after {
+  background: #FFD452;
+}
+body.theme--yellow .doc-solution {
+  background: #FFF8E3;
+  border-color: #FFD452;
+}
+body.theme--yellow .question-help,
+body.theme--yellow .dos-question-result,
+body.theme--yellow .question-feedback {
+  background: #FFF8E3;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-option-checkbox input:checked ~ label:before {
+  background: #FFD452;
+}
+body.theme--yellow .dos-option-radio-view-2 input:checked ~ label {
+  background: #FFD452;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-col-side-accordian .dos-icon svg path {
+  fill: #FFD452;
+}
+body.theme--yellow .fancybox-thumbs > ul > li:before {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-scroll-top .dos-circle {
+  background: #FFD452;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-scroll-top .dos-circle:hover {
+  background-color: #FBC72B;
+  border-color: #FBC72B;
+}
+body.theme--yellow .can-drop-style {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-answer-draggable,
+body.theme--yellow .dos-state-item {
+  background: #FFF8E3;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-drag-pairs-table .over {
+  background: #FFD452 !important;
+}
+body.theme--yellow .dos-sortable-picture .dos-circle {
+  background: #FFD452;
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-collection-tasks {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-collection-tasks__title {
+  background: #FFD452;
+}
+body.theme--yellow .dos-collection-tasks-slider .dos-slide__prev, body.theme--yellow .dos-collection-tasks-slider .dos-slide__next {
+  border-color: #FFD452;
+}
+body.theme--yellow .image-options > div {
+  border: 2px solid #FFD452;
+}
+body.theme--yellow .dos-collection-tasks .slick-dots li {
+  background: #FFE9A7;
+}
+body.theme--yellow a[target=_blank]:before,
+body.theme--yellow a[href^="https://"]:before,
+body.theme--yellow a[href^="http://"]:before,
+body.theme--yellow a[target=_blank]:before,
+body.theme--yellow a[href^="https://"]:before,
+body.theme--yellow a[href^="http://"]:before,
+body.theme--yellow a[target=_blank]:hover:before,
+body.theme--yellow a[href^="https://"]:hover:before,
+body.theme--yellow a[href^="http://"]:hover:before {
+  border-color: #FFD452;
+}
+body.theme--yellow a > span.reference-last-word {
+  display: inline-block;
+}
+body.theme--yellow a > span.reference-last-word:after {
+  background-color: #FFD452;
+}
+body.theme--yellow .dos-col-side a {
+  border-color: #FFD452;
+}
+body.theme--yellow .dos-col-side a:hover {
+  border-color: #FFD452;
+}
+body.theme--yellow .btn-audio-alternative {
+  background-color: #FFD452;
+}
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.draggable-active.pin-marker,
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.pin-marker:focus {
+  background-color: transparent !important;
+  border: solid 2px #FFD452 !important;
+}
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.over.pin-marker {
+  background-color: transparent !important;
+  border: solid 2px #FFD452 !important;
+}
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.ui-draggable-dragging.pin-marker {
+  background-color: transparent !important;
+  border: solid 2px #FFD452 !important;
+}
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .dos-answer-draggable.over.pin-marker {
+  background-color: transparent !important;
+  border: solid 2px #FFD452 !important;
+}
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .dos-drag-area.drop-target.pin-marker {
+  background-color: transparent !important;
+  border: solid 2px #FFD452 !important;
+}
+body.theme--yellow .drag-drop.can-drop.pin-marker, body.theme--yellow .can-drop-style.pin-marker {
+  background-color: transparent !important;
+  border: solid 2px #FFD452 !important;
+}
+body.theme--yellow .drag-drop.can-drop.danger.pin-marker {
+  background: #ffc5bf !important;
+}
+body.theme--yellow .drag-drop.can-drop.success.pin-marker {
+  background: #d2f9dc !important;
+}
+body.theme--yellow button.dos-btn-def-basic:focus {
+  box-shadow: inset 0 0 0px 3px #ffc71f;
+  border-color: #ffc71f;
+}
+body.theme--yellow .dos-option-radio-view-2 input:focus ~ label {
+  border-color: #FFD452;
+  box-shadow: 0 0 3px #FFD452;
+}
+body.theme--yellow .drag-drop.can-drop, body.theme--yellow .can-drop-style {
+  background-color: #FFD452;
+  border-color: #ffc71f;
+}
+body.theme--yellow .keyboard > button:focus {
+  border-color: #FFD452;
+  box-shadow: 0 0 3px #FFD452;
+}
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .answers-holder .pin-marker .pin-3 svg rect {
+  fill: #FFD452;
+}
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .answers-holder .pin-marker .pin-2 svg path {
+  fill: #FFD452;
+}
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .answers-holder .pin-marker .pin-2 svg g:nth-of-type(2) circle {
+  fill: #FFD452;
+}
+body.theme--yellow [data-question-type="Povlačenje na sliku"] .answers-holder .pin-marker .pin-1 svg path {
+  fill: #FFD452;
+}
+body.theme--yellow .dos-part-question__controls .dos-btn-def-basic svg path {
+  fill: #000;
+}
+body.theme--yellow .dos-footer__description a.dos-link:before {
+  border-bottom: 2px solid #fff !important;
+}
+body.theme--yellow .dos-footer__description a.dos-link:hover:before {
+  border-bottom: 2px dashed #FFD452 !important;
+}
+body.theme--yellow .dos-col-wrapper .dos-col-main-shell--bottom a:hover,
+body.theme--yellow .dos-part-profile__description a:hover {
+  border-bottom: 2px dashed #FFD452 !important;
+}
+body.theme--yellow .dos-col-wrapper .dos-col-main-shell--bottom a:hover:before,
+body.theme--yellow .dos-part-profile__description a:hover:before {
+  content: none;
+}
+body.theme--yellow .dos-col-main-shell a {
+  display: inline !important;
+}
+@media (max-width: 1134px) {
+  body.theme--yellow #dropdownMenu1 + .dropdown-menu.show > ul {
+    background-color: #FFF8E3;
+    border-bottom: 2px solid #fff;
+  }
+}

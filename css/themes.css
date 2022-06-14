@@ -1,0 +1,163 @@
+body.theme--orange .dos-main-banner {
+  background: #FDB259; }
+
+body.theme--orange .dos-header-navigate .dos-share:hover,
+body.theme--orange .dos-header-navigate .dos-settings:hover {
+  background-color: #FDB259; }
+
+body.theme--orange .dos-dropdown-btn.active {
+  background-color: #FDB259;
+  border-color: #FDB259; }
+
+body.theme--orange .dos-main-information svg path {
+  stroke: #FDB259; }
+
+body.theme--orange .dos-main-information.active {
+  border-color: #FDB259;
+  background: #f8e2c7; }
+  body.theme--orange .dos-main-information.active svg path {
+    stroke: #FDB259; }
+
+body.theme--orange .dos-key-terms__tabs a {
+  border-bottom: 1.5px solid #FDB259; }
+
+body.theme--orange .dos-callout {
+  border-bottom: solid 2px #FDB259; }
+  body.theme--orange .dos-callout__icon {
+    background: #FDB259; }
+
+body.theme--orange .dos-part a:not(.dos-link-float) {
+  border-bottom: solid 2px #FDB259; }
+  body.theme--orange .dos-part a:not(.dos-link-float):before {
+    border-bottom: dashed 2px #FDB259; }
+
+body.theme--orange .dos-part--highlight {
+  border: solid 2px #FDB259;
+  background: #f8e2c7; }
+
+body.theme--orange .dos-part--transparent {
+  border: solid 2px #FDB259; }
+
+body.theme--orange .dos-hedding__icon {
+  background: #FDB259; }
+
+body.theme--orange .dos-settings-group__btn button {
+  background: #FDB259; }
+
+body.theme--orange .dos-settings-group input:checked ~ label {
+  border-color: #FDB259;
+  background: #f8e2c7; }
+  body.theme--orange .dos-settings-group input:checked ~ label:before {
+    border-color: #FDB259; }
+
+body.theme--orange .dos-settings-list__link svg path {
+  fill: #FDB259; }
+
+body.theme--orange .dos-reference__icon {
+  background: #FDB259;
+  border: solid 2px #FDB259; }
+  body.theme--orange .dos-reference__icon:hover {
+    background: #fff; }
+
+body.theme--orange .dos-btn-def {
+  border: solid 2px #FDB259; }
+  body.theme--orange .dos-btn-def--transparent {
+    border-color: transparent; }
+  body.theme--orange .dos-btn-def:not(.dos-btn-def--transparent):hover {
+    background-color: #f8e2c7; }
+
+body.theme--orange .dos-alert.active {
+  border-color: #FDB259; }
+
+body.theme--orange .fancybox-thumbs > ul > li:before {
+  border-color: #FDB259; }
+
+body.theme--orange .doc-solution {
+  background: #f8e2c7;
+  border-color: #FDB259; }
+
+body.theme--orange .dos-btn-def-basic {
+  background-color: #FDB259;
+  border: solid 2px #FDB259; }
+
+body.theme--orange .dos-sortable .ui-sortable-helper {
+  border-color: #FDB259; }
+
+body.theme--orange .dos-scroll-top .dos-circle {
+  background: #FDB259;
+  border-color: #FDB259; }
+  body.theme--orange .dos-scroll-top .dos-circle:hover {
+    background-color: #f8e2c7;
+    border-color: #f8e2c7; }
+
+body.theme--orange .dos-option-radio-view-2 input:checked ~ label {
+  background: #FDB259;
+  border-color: #FDB259; }
+
+body.theme--orange .dos-answer-draggable {
+  background: #f8e2c7;
+  border: solid 2px #FDB259; }
+
+body.theme--orange .dos-sortable-picture li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+body.theme--orange .dos-sortable-picture .dos-sortable-number {
+  margin-left: 10px;
+  margin-right: 37px; }
+  @media (max-width: 767px) {
+    body.theme--orange .dos-sortable-picture .dos-sortable-number {
+      margin-right: 15px; } }
+
+body.theme--orange .dos-sortable-picture .dos-drag-area {
+  margin-bottom: 18px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  @media (max-width: 767px) {
+    body.theme--orange .dos-sortable-picture .dos-drag-area {
+      display: block; } }
+
+body.theme--orange .dos-sortable-picture .dos-answer .dos-circle {
+  background: #FDB259;
+  border-color: #FDB259; }
+
+body.theme--orange .dos-collection-tasks {
+  border-color: #FDB259; }
+  body.theme--orange .dos-collection-tasks__title {
+    background: #FDB259; }
+  body.theme--orange .dos-collection-tasks-slider .slick-dots li {
+    background: #f8e2c7; }
+
+body.theme--orange .dos-slider-tasks-nav .dos-slide__prev, body.theme--orange .dos-slider-tasks-nav .dos-slide__next {
+  border-color: #FDB259; }
+
+body.theme--orange .dos-link {
+  border-bottom: solid 2px #FDB259; }
+  body.theme--orange .dos-link:before {
+    border-bottom: dashed 2px #FDB259; }
+  body.theme--orange .dos-link:hover {
+    border-color: #fff; }
+
+body.theme--orange .dos-col-side .dos-icon svg path {
+  fill: #FDB259; }
+
+body.theme--orange .dos-sortable-picture .dos-circle {
+  background: #FDB259;
+  border-color: #FDB259; }
+
+body.theme--orange .dos-key-terms a {
+  border-bottom: 1.5px solid #FDB259; }
+  body.theme--orange .dos-key-terms a:before {
+    border-bottom: dashed 2px #FDB259; }
+  body.theme--orange .dos-key-terms a:hover {
+    border-color: #fff; }
+    body.theme--orange .dos-key-terms a:hover:before {
+      opacity: 1; }

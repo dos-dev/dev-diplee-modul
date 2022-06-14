@@ -1,0 +1,81 @@
+var idx = elasticlunr(function () {this.addField('id');this.addField('title');this.addField('content');this.addField('url');this.setRef('title');});
+
+idx.addDoc({id: 1, title: 'Bordo modul 1', content: 'Učitavanje 1. Bordo modul 1 Iva Ivić, Ivan Horvat, Nedjeljko Kuhar Što ću naučiti ishod 1 ishod 2 jako dugi ishod jako dugi ishod jako dugi ishod jako dugi ishod jako dugi ishod jako dugi ishod jako dugi ishod jako dugi ishod jako dugi ishod jako dugi ishod jako dugi ishod jako dugi ishod jako dugi ishod jako dugi ishod jako dugi ishod jako dugi ishod jako dugi ishod 1.1. Bordo jedinica 1 1.2. Bordo jedinica IVR 1.3. Još jedna jedinica Aktivnosti za samostalno učenje Procijenite svoje znanje Jeste li znali? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ovo je treća zanimljivost sa slikom medvjeda. Ovo je zanimljivost sa slikom.', url: 'html/691_Bordo_modul_1.html'});
+idx.addDoc({id: 2, title: '1. Bordo jedinica 1', content: 'Učitavanje 1.1. Bordo jedinica 1 Što ću naučiti Ishod 1 Ishod 2 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Uvodni dio je ovo Ja sam alt atribut videa. Transkript: Ja sam transktipr. Ovo je sadržaj koji opisuje copyright ovog prethodnog videa. Vanjska poveznica ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Unutarnja poveznica na podstranicu. Inkluzivni prikaz Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Link na primjer. Definicija Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Podnaslov sadržaja Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Edward Abbey\'s List of Examples in "The Great American Desert" Ian Frazier\'s List of Reasons in Great Plains Lists in Bill Bryson\'s Neither Here Nor There Lists in William Least Heat-Moon\'s Place Description "Street Yarn" by Walt Whitman "When I Come to Be Old" by Jonathan Swift Za one koji žele znati više Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Primjer 1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. rješenje Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Transkript Ovo je unesen transkript ovog audio zapisa. Kada transkript nije unesen, prikazuje se poruka " Nema dostupnog transkripta". Trava Fotografija prikazuje travu. Lišće - Funkcionalnost i dizajn ambalaže trebali bi biti usklađeni. Dizajn može imati značajan utjecaj na prodaju proizvoda. Fotografija prikazuje lišće. Laptop Fotografija prikazuje laptop i ruke čovjeka koji radi na njemu. Galerija. Slika 1. Alt tekst u galeriji za travu. Slika 2. Alt tekst za lišće u galeriji. Slika 3. Alt tekst za latopt. Tablica Predmeti Moduli Jedinice Lekcije Napomene Matematika 1 2 3 Plus Hrvatski 1 2 3 Minus #1 Zadatak Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. #2 Zadatak Ovo pitanje je točno. Da Ne Napomena Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Projekt Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. zanimljivost Zanimljivost Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Izborna tema Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Procjena znanja Sunce je žuto. Da Ne Pomoć za rješenje zadatka Postupak rješenja Koje boje je sunce? Žute Plave Crvene Lišće u jesen može biti ovih boja: Žuta Plava Crvena Bijela Upari: Hrvatska Rim Ljubljana Zagreb Italija Rim Ljubljana Zagreb Slovenija Rim Ljubljana Zagreb Kada je zima onda je i pada , a kada je ljeto onda je jer sije . Popuni tablicu: limun boja mrkva boja špinat boja Glavni grad Italije je Zagreb Rim Ljubljana , glavni grad Hrvatske je Zagreb Ljubljana Rim , a glavni grad Slovenije je Zagreb Rim Ljubljana . Kada je zima onda je i pada , a kada je ljeto onda je i sije . snijeg hladno toplo sunce Upari: more žuta bor plava sunce zelena Razvrstaj: Brancin Pastrva Vrana vrana vrana Vrabac Ribe Ptice Poredaj životinje od najsporije prema najbržoj: 1. Leopard 2. Puž 3. Zec Koliko mačaka ima na slici? Označi dijelove tigrove glave: Lijevo uho u dva reda Desno uho Usta Ispiši "Hello, world!" u Pythonu. Odaberi corgija. Odaberi corgija i mačke. Postavi marker na sat: Popuni donje formule. ZAVRŠITE PROCJENU ili % točno odgovorenih pitanja Procijenili ste svoje znanje o sljedećim ishodima: Uspješno ste naučili: Potrudite se još malo kako biste bolje naučili: PONOVITE PROCJENU Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Poveznica na šesti element. Ovo je neki teskt Ovo je neki tekst Inkluzivni prikaz Ovo je neki inkluzivni tekst Tablica s malo polja i jednim dugim tekstom 123 sdsdvs fdasdas a asd aa asda ada asdasdada asdas dasdasdasdasdasdas dadadadadada Tablica s malo polja i više dugog teksta: asdasdas asdasd qweqwe adadadalsdkja kladkjakaad adadasda sksd ljas kaskasd lkjasdklj asdk asdkasdasdasd asdalja sdklkasdjklks lasd kldja skasj dkkak lakaska kkkakalas Tablica s puno stupaca 1212 1212 1212 1212 1212 1212 1212 1212 1212 31312 1231 123 12112122 1212 1212 1212 1212 1212 1212 1212 1212 1212 3453 534 123 1231212 Tablica s puno stupaca i redaka i headerom 11 22 33 44 55 66 77 88 99 00 wr w rw we sdf sfd s ss s wer we rwe w sd sd wre we ew rew sdf sfsd sdf s sdf s sdf sdfsd fs wr werew Procjena znanja Dovucite pločice u tekst Ovo je početak teksta, ovdje je sad važno dodati pločicu s tekstom neke boje: , potom ide pločica s tekstom koji predstavlja neku stranu svijeta: i još jednu, sjevernu stranu svijeta , a onda ide pločica do be do be do tra la la lala i to je onda to lorem ipsum itd. sjever plava istok pjesma drfs asd a ZAVRŠITE PROCJENU ili % točno odgovorenih pitanja Procijenili ste svoje znanje o sljedećim ishodima: Uspješno ste naučili: Potrudite se još malo kako biste bolje naučili: PONOVITE PROCJENU Procjena znanja asdasd Da Ne asd asd asd asd asd asd a asd asd asdasd povucite tekst ovo je početak teksta lorem ipsum itd itd, nakon toga ide pločica u dva reda: pa onda ide jednoredna pločica i onda još jedna u dva reda koja dolazi tek kasnije i to bi bilo to, kraj pitanja jedan pločica u dva reda do be do be do tra la la Tri opcije asd ads sdg 4 opcije 1 2 3 4 ZAVRŠITE PROCJENU ili % točno odgovorenih pitanja Procijenili ste svoje znanje o sljedećim ishodima: Uspješno ste naučili: Potrudite se još malo kako biste bolje naučili: PONOVITE PROCJENU Prethodni modul 1 2 3 1.2. Bordo jedinica IVR', url: 'html/692_Bordo_jedinica_1.html'});
+idx.addDoc({id: 3, title: '2. Bordo jedinica IVR', content: 'Učitavanje 1.2. Bordo jedinica IVR Što ću naučiti ivr ishod 1.1. Bordo jedinica 1 1 2 3 1.3. Još jedna jedinica', url: 'html/696_Bordo_jedinica_IVR.html'});
+idx.addDoc({id: 4, title: '3. Još jedna jedinica', content: 'Učitavanje 1.3. Još jedna jedinica Što ću naučiti zanimljivost Zanimljivost Ovo je zanimljivost sa slikom. Ovo je neki neuvučeni tekst poslije zanimljivosti, označen kao lijevi stupac. Napomena Ovo je napomena u desnom stupcu. Ovo je još jedan blok teksta. zanimljivost Zanimljivost Ovo je treća zanimljivost sa slikom medvjeda. #1 Kolekcija zadataka Sunce je žuto. Da Ne Koje boje je sunce? Žute Zelene Ljubičaste Odaberi crvenu i plavu boju. Crvena boja Bijela boja Plava boja Zelena boja #2 Zadatak Trava je zelene boje. Da Ne zanimljivost Zanimljivost link s razmakom link-link-link-link-link Link link-link-link-link link-link-link-link Link Link Procjena znanja Razvrstaj. Pastrva Vrabac Vrana Brancin Ribe Ptice Sunce je žute boje. Da Ne Trava je zelene boje. Da Ne ZAVRŠITE PROCJENU ili % točno odgovorenih pitanja Procijenili ste svoje znanje o sljedećim ishodima: Uspješno ste naučili: Potrudite se još malo kako biste bolje naučili: PONOVITE PROCJENU 1.2. Bordo jedinica IVR 1 2 3 Aktivnosti za samostalno učenje', url: 'html/734_Jos_jedna_jedinica.html'});
+idx.addDoc({id: 5, title: 'Aktivnost za samostalan rad', content: 'Učitavanje Aktivnosti za samostalno učenje Ovo je sadržaj aktivnosti za samostalno učenje. #1 Zadatak Upiši znak \'psi\'. 1.3. Još jedna jedinica 1 2 3 Procjena znanja', url: 'html/733_Aktivnosti_za_samostalno_ucenje.html'});
+idx.addDoc({id: 6, title: 'Procjena znanja', content: 'Učitavanje Procijenite svoje znanje #1 Zadatak Sunce je žute boje. Da Ne #2 Zadatak Koje boje je trava? Zelene Ljubičaste Bijele #3 Zadatak Upari. Hrvatska Zagreb Italija Rim Slovenija Ljubljana #4 Zadatak Upiši alfu. #5 Zadatak Upiši riječ \'zeleno\'. ZAVRŠITE PROCJENU ili % točno odgovorenih pitanja Procijenili ste svoje znanje o sljedećim ishodima: Uspješno ste naučili: Potrudite se još malo kako biste bolje naučili: PONOVITE PROCJENU Aktivnosti za samostalno učenje 1 2 3 Sljedeći modul', url: 'html/691-1_Bordo_modul_1_knowledge_assessment.html'});
+idx.addDoc({id: 7, title: 'Pojmovnik', content: 'Učitavanje Pojmovnik A B C Č Ć D Dž Đ E F G H I J K L Lj M N Nj O P R S Š T U V W X Y Z Ž A A pojam 3 Treći pojam sa slikom bez audia C Corgi Audio zapis izgovora riječi Drugi pojam sa slikom bez audia M Moljac Kolega iz ureda do P Pojam 1 Prvi pojam bez slike i audia S Slika Audio zapis izgovora riječi Pojam dodan iz jedinice 734 drugi put Sleep Pojam s podstranice T Tekst Pojam dodan iz jedinice 734 Z Z pojam 4 Audio zapis izgovora riječi Četvrti pojam bez slike sa audiem', url: 'html/688-1_glossary.html'});
+idx.addDoc({id: 8, title: 'Impresum', content: 'Učitavanje Impresum Voditelj projekta: voditelj projekta za DOS Voditelj izrade digitalnih obrazovnih sadržaja za međupredmetnu temu „Naziv teme“: Savjetnik za IKT za međupredmetne teme: Autor aktivnosti scenarija poučavanja i interaktivnih sadržaja za međupredmetne teme sukladno metodičko-didaktičkim principima: Stručnjak za inkluzivnu prilagodbu aktivnosti scenarija poučavanja: Stručnjak za pristupačnost: Nikola Rundek Stručnjak za izradu interaktivnih sadržaja za međupredmetne teme: Mladen Panić Recenzent za stručnu i znanstvenu utemeljenost i primjenu metodičkih principa iz „naziv nastavnog predmeta“: Recenzent ostvarivost odgojno-obrazovnih očekivanja međupredmetne teme: Recenzent za inkluzivnu prilagodbu scenarija poučavanja za međupredmetne teme: Koordinator projekta: Ivana Mišetić Stručnjak za osiguravanje kvalitete tehničkih funkcionalnosti: Stručnjak za izradu i uređivanje video sadržaja i animacija: Ivana Čoh Lektura: Izvori fotografija i video materijala: Ostali izvori: Izvoditelj: Profil Klett d.o.o. Naručitelj: Hrvatska akademska i istraživačka mreža – CARNET Godina izrade: 2020. Sadržaj ovog materijala isključiva je odgovornost Hrvatske akademske i istraživačke mreže – CARNET. Više informacija: Hrvatska akademska i istraživačka mreža – CARNET tel.: +385 1 6661 500 Josipa Marohnića 5, 10000 Zagreb www.carnet.hr', url: 'html/impresum.html'});
+idx.addDoc({id: 9, title: 'Upute za korištenje', content: 'Učitavanje Upute za korištenje Ovdje ide sadržaj uputa za korištenje DOS-a. . Transkript: Opis knjige nije dostupan..', url: 'html/upute.html'});
+
+function doSearch(platform)
+{
+console.log($('#searchField'+platform).val());
+ result = idx.search($('#searchField'+platform).val(), {expand: true});
+ $("#search-list").empty();
+ var searchresults = new Array();
+ $.each( result, function( key, val ) {
+ const reference = idx.documentStore.docs[val.ref]
+ var searchitem= [];
+ searchitem["title"] = reference.title;
+ searchitem["url"] = reference.url;
+ searchresults.push(searchitem);
+ } );
+
+ searchresults.sort(function(a, b) {
+ var titleA = a["title"].toLowerCase();
+ var titleB = b["title"].toLowerCase();
+ return titleA.localeCompare(titleB, 'hr', {numeric: true, sensitivity: 'variant'})
+ });
+
+ for (var m = 0; m<searchresults.length; m++){
+
+ var link = searchresults[m]["url"];
+
+ if(window.location.pathname.indexOf(link) >= 0) {
+ link = "#";
+ } else if(window.location.pathname.indexOf(".html") >= 0 && window.location.pathname.indexOf("index.html") < 0 && window.location.pathname.indexOf("Ovdje") < 0){
+ link = "../" + link;
+ }
+
+ var $li = $("<li><a href='"+link+"'>"+searchresults[m]["title"]+"</a></li>");
+ $("#search-list").append($li);
+ }
+
+ if(searchresults.length == 0){
+ var $li = $("<li><a>Nema pronađenih rezultata!</a></li>");
+ $("#search-list").append($li);
+ }
+
+ $('#dos-search-results').show();
+}
+
+function hideSearch(){
+ $('#dos-search-results').hide();
+}
+
+$('#searchFieldDesktop').keyup(function (e) {
+ doSearch("Desktop");
+});
+
+$('#searchFieldMobile').keyup(function (e) {
+ doSearch("Mobile");
+});
+
+$('#searchFieldDesktop').keydown(function (e) {
+ doSearch("Desktop");
+});
+
+$('#searchFieldMobile').keydown(function (e) {
+ doSearch("Mobile");
+});
+
+$('#searchFieldDesktop').keypress(function (e) {
+ doSearch("Desktop");
+});
+
+$('#searchFieldMobile').keypress(function (e) {
+ doSearch("Mobile");
+});
